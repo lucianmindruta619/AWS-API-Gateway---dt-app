@@ -1,0 +1,14 @@
+{
+  "name": "dt_search_user",
+  "version": "1.0.0",
+  "description": "search user by keyword",
+  "main": "dt_search_user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Li Ying",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "3.10.1"
+  }
+}

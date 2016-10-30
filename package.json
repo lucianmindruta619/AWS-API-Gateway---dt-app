@@ -1,0 +1,45 @@
+{
+  "name": "dripjs",
+  "version": "0.5.0",
+  "description": "dripthat server application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/publu/dripJS.git"
+  },
+  "author": "Lucian Mindruta",
+  "license": "ISC",
+  "dependencies": {
+    "async": "1.5.2",
+    "aws-sdk": "2.2.22",
+    "aws4": "1.1.0",
+    "bcrypt": "0.8.5",
+    "dotenv": "1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-awslambda": "^0.2.3",
+    "gulp-changed": "^1.3.0",
+    "gulp-foreach": "^0.1.0",
+    "gulp-newer": "^1.0.0",
+    "gulp-watch": "^4.3.5",
+    "gulp-zip": "^3.0.2",
+    "hashids": "1.0.2",
+    "lodash": "3.10.1",
+    "lz-string": "1.4.4",
+    "mysql": "2.10.0",
+    "node-bitlyapi": "0.4.0",
+    "payeezy": "^1.0.4",
+    "request": "2.67.0",
+    "sequelize": "3.15.1",
+    "url": "0.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/publu/dripJS/issues"
+  },
+  "homepage": "https://github.com/publu/dripJS#readme",
+  "devDependencies": {
+    "require-dir": "0.3.0"
+  }
+}

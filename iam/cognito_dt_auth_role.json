@@ -1,0 +1,73 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "mobileanalytics:PutEvents"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::dt-profilepics-upload/${cognito-identity.amazonaws.com:sub}*",
+                "arn:aws:s3:::dt-coverpics-upload/${cognito-identity.amazonaws.com:sub}*",
+                "arn:aws:s3:::dt-dripmedia-upload/*${cognito-identity.amazonaws.com:sub}/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::dt-profilepics/*",
+                "arn:aws:s3:::dt-coverpics/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "execute-api:*"
+            ],
+            "Resource": [
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/DELETE/drips/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/accounts",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/accounts/cashouts",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/accounts/credits",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/channels",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/drips",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/drips/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/env",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/feed",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/iap",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/search/tags",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/search/tags/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/search/users/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/test",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/qr",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/users/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/PATCH/users/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/PATCH/users/*/password",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/dripcoins",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/drips",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/drips/*/media",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/drips/*/capture",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/drips/*/purchase",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/drips/*/tags",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/drips/*/vote",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/sessions",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/users",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/users/*/verify"
+            ]
+        }
+    ]
+}

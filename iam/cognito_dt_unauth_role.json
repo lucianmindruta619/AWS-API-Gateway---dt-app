@@ -1,0 +1,46 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "mobileanalytics:PutEvents",
+                "cognito-sync:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::dt-profilepics/*",
+                "arn:aws:s3:::dt-coverpics/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "execute-api:*"
+            ],
+            "Resource": [
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/channels",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/drips/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/env",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/feed",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/search/tags",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/search/tags/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/search/users/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/test",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/qr",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/GET/users/*",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/sessions",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/users",
+                "arn:aws:execute-api:us-east-1:<AWS_ACCOUNT_ID>:<API_ID>/*/POST/users/*/verify"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "dt_login",
+  "version": "1.0.0",
+  "description": "Login lambda",
+  "main": "dt_login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panos Michail",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "0.8.5"
+  }
+}

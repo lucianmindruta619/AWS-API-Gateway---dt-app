@@ -1,0 +1,10 @@
+---
+swagger: "2.0"
+info:
+  version: "2015-12-29T14:53:44Z"
+  title: "dt_back"
+host: "n188zfgouj.execute-api.us-east-1.amazonaws.com"
+basePath: "/"
+schemes:
+- "https"
+paths:

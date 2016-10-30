@@ -1,0 +1,40 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:UpdateItem"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_USERS_TABLE>"
+        },
+        {
+            "Action": [
+                "dynamodb:GetItem"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_IAP_TABLE>"
+        },
+        {
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:Query",
+                "dynamodb:PutItem"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_IOSRECEIPTS_TABLE>",
+                "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_CREDITS_TABLE>"
+            ]
+        },
+        {
+            "Sid": "",
+            "Resource": "*",
+            "Action": [
+                "logs:*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}

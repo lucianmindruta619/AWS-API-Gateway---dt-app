@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      "gulp-awslambda@^0.2.3",
+      "/Users/pablo/Documents/workspace/dripJS"
+    ]
+  ],
+  "_from": "gulp-awslambda@>=0.2.3 <0.3.0",
+  "_id": "gulp-awslambda@0.2.3",
+  "_inCache": true,
+  "_location": "/gulp-awslambda",
+  "_nodeVersion": "4.0.0",
+  "_npmUser": {
+    "email": "willyg302@gmail.com",
+    "name": "willyg302"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {
+    "core-util-is": "1.0.1",
+    "inherits": "2.0.1",
+    "isarray": "0.0.1",
+    "string_decoder": "0.10.31",
+    "xtend": "4.0.0"
+  },
+  "_requested": {
+    "name": "gulp-awslambda",
+    "raw": "gulp-awslambda@^0.2.3",
+    "rawSpec": "^0.2.3",
+    "scope": null,
+    "spec": ">=0.2.3 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-awslambda/-/gulp-awslambda-0.2.3.tgz",
+  "_shasum": "0e7f12720bf73ad67e743119483227366518beb0",
+  "_shrinkwrap": null,
+  "_spec": "gulp-awslambda@^0.2.3",
+  "_where": "/Users/pablo/Documents/workspace/dripJS",
+  "author": {
+    "name": "William Gaul"
+  },
+  "bugs": {
+    "url": "https://github.com/willyg302/gulp-awslambda/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.11",
+    "gulp-util": "~3.0.2",
+    "through2": "~0.6.3",
+    "xtend": "~4.0.0"
+  },
+  "description": "A Gulp plugin for publishing your package to AWS Lambda",
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "mocha": "~2.1.0",
+    "should": "~4.5.0",
+    "sinon": "~1.12.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0e7f12720bf73ad67e743119483227366518beb0",
+    "tarball": "http://registry.npmjs.org/gulp-awslambda/-/gulp-awslambda-0.2.3.tgz"
+  },
+  "gitHead": "2300aeb374fd03bae23a0992e11b318f922cdb80",
+  "homepage": "https://github.com/willyg302/gulp-awslambda",
+  "installable": true,
+  "keywords": [
+    "aws",
+    "gulpplugin",
+    "lambda"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "willyg302",
+      "email": "willyg302@gmail.com"
+    }
+  ],
+  "name": "gulp-awslambda",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willyg302/gulp-awslambda.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.2.3"
+}

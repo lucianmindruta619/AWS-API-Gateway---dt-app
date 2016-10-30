@@ -1,0 +1,16 @@
+{
+  "name": "dt_search_tag",
+  "version": "1.0.0",
+  "description": "search tag",
+  "main": "dt_search_tag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Li Ying",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "3.10.1",
+    "mysql": "2.10.0",
+    "sequelize": "3.16.0"
+  }
+}

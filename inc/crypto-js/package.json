@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      "crypto-js@3.1.2",
+      "/Users/pablo/Documents/workspace/dripJS/node_modules/payeezy"
+    ]
+  ],
+  "_from": "crypto-js@3.1.2",
+  "_id": "crypto-js@3.1.2",
+  "_inCache": true,
+  "_location": "/crypto-js",
+  "_npmUser": {
+    "email": "evanvosberg@inext.me",
+    "name": "evanvosberg"
+  },
+  "_npmVersion": "1.1.63",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "crypto-js",
+    "raw": "crypto-js@3.1.2",
+    "rawSpec": "3.1.2",
+    "scope": null,
+    "spec": "3.1.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/payeezy"
+  ],
+  "_resolved": "https://registry.npmjs.org/crypto-js/-/crypto-js-3.1.2.tgz",
+  "_shasum": "b9fe778e8e0df6882e75dc4382f69b6e541872d1",
+  "_shrinkwrap": null,
+  "_spec": "crypto-js@3.1.2",
+  "_where": "/Users/pablo/Documents/workspace/dripJS/node_modules/payeezy",
+  "author": {
+    "name": "Evan Vosberg",
+    "url": "http://github.com/evanvosberg"
+  },
+  "bugs": {
+    "url": "http://github.com/evanvosberg/crypto-js/issues"
+  },
+  "dependencies": {},
+  "description": "Modularized port of googlecode project crypto-js.",
+  "devDependencies": {
+    "fmd": "~0.0.1",
+    "fs.extra": "~1.2.0",
+    "handlebars": "~1.0.10",
+    "js-yaml": "~2.0.4",
+    "tar.gz": "~0.1.1",
+    "uglify-js": "~2.2.5",
+    "underscore": "~1.4.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b9fe778e8e0df6882e75dc4382f69b6e541872d1",
+    "tarball": "http://registry.npmjs.org/crypto-js/-/crypto-js-3.1.2.tgz"
+  },
+  "homepage": "http://github.com/evanvosberg/crypto-js",
+  "installable": true,
+  "keywords": [
+    "AES",
+    "Base64",
+    "CBC",
+    "CFB",
+    "CTR",
+    "DES",
+    "HMAC",
+    "Hash",
+    "MD5",
+    "OFB",
+    "PBKDF2",
+    "RC4",
+    "Rabbit",
+    "SHA-1",
+    "SHA-256",
+    "SHA1",
+    "SHA256"
+  ],
+  "licenses": [
+    {
+      "type": "New BSD",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "evanvosberg",
+      "email": "evanvosberg@inext.me"
+    }
+  ],
+  "name": "crypto-js",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/evanvosberg/crypto-js.git"
+  },
+  "scripts": {},
+  "title": "crypto-js",
+  "version": "3.1.2"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "dt_update_password",
+  "version": "1.0.0",
+  "description": "Update password",
+  "main": "dt_update_password.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panos Michail",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "0.8.5"
+  }
+}

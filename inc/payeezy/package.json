@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "payeezy@^1.0.4",
+      "/Users/pablo/Documents/workspace/dripJS"
+    ]
+  ],
+  "_from": "payeezy@>=1.0.4 <2.0.0",
+  "_id": "payeezy@1.0.4",
+  "_inCache": true,
+  "_location": "/payeezy",
+  "_npmUser": {
+    "email": "payeezy.api@firstdata.com",
+    "name": "firstapi"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "payeezy",
+    "raw": "payeezy@^1.0.4",
+    "rawSpec": "^1.0.4",
+    "scope": null,
+    "spec": ">=1.0.4 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/payeezy/-/payeezy-1.0.4.tgz",
+  "_shasum": "ea741ce7660d79e52d5152efac9e16b93bbbcff8",
+  "_shrinkwrap": null,
+  "_spec": "payeezy@^1.0.4",
+  "_where": "/Users/pablo/Documents/workspace/dripJS",
+  "author": {
+    "email": "support@payeezy.com",
+    "name": "Payeezy Support"
+  },
+  "bugs": {
+    "url": "https://github.com/payeezy/payeezy_direct_API/issues"
+  },
+  "dependencies": {
+    "crypto-js": "3.1.2",
+    "q": "~1.0.1"
+  },
+  "description": "Integrate with Payeezy",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ea741ce7660d79e52d5152efac9e16b93bbbcff8",
+    "tarball": "http://registry.npmjs.org/payeezy/-/payeezy-1.0.4.tgz"
+  },
+  "engines": {
+    "node": ">= v0.10.26"
+  },
+  "homepage": "https://github.com/payeezy/payeezy_direct_API",
+  "installable": true,
+  "keywords": [
+    "firstdata",
+    "payeezy"
+  ],
+  "license": "MIT",
+  "main": "lib/payeezy.js",
+  "maintainers": [
+    {
+      "name": "firstapi",
+      "email": "payeezy.api@firstdata.com"
+    }
+  ],
+  "name": "payeezy",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/payeezy/payeezy_direct_API.git"
+  },
+  "scripts": {
+    "test": "node test/payeezy-test.js"
+  },
+  "version": "1.0.4"
+}

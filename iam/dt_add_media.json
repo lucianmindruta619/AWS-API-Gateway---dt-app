@@ -1,0 +1,31 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:UpdateItem"
+            ],
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_DRIPS_TABLE>",
+                "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_USERS_TABLE>"
+            ]
+        },
+        {
+            "Action" : [
+                "sns:Publish"
+            ],
+            "Effect" : "Allow",
+            "Resource" : "arn:aws:sns:us-east-1:493526813836:dt-media"
+        },
+        {
+            "Sid": "",
+            "Resource": "*",
+            "Action": [
+                "logs:*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}

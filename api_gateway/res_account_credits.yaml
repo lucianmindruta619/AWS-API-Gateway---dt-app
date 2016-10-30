@@ -1,0 +1,156 @@
+/accounts/credits:
+  get:
+    produces:
+    - "application/json"
+    parameters: []
+    responses:
+      200:
+        description: "200 response"
+        schema:
+          $ref: "#/definitions/Empty"
+        headers:
+          Access-Control-Allow-Headers:
+            type: "string"
+          Access-Control-Allow-Methods:
+            type: "string"
+          Access-Control-Allow-Origin:
+            type: "string"
+          Access-Control-Allow-Credentials:
+            type: "string"
+      400:
+        description: "400 response"
+        schema:
+          $ref: "#/definitions/Empty"
+        headers:
+          Access-Control-Allow-Headers:
+            type: "string"
+          Access-Control-Allow-Methods:
+            type: "string"
+          Access-Control-Allow-Origin:
+            type: "string"
+          Access-Control-Allow-Credentials:
+            type: "string"
+      403:
+        description: "403 response"
+        schema:
+          $ref: "#/definitions/Empty"
+        headers:
+          Access-Control-Allow-Headers:
+            type: "string"
+          Access-Control-Allow-Methods:
+            type: "string"
+          Access-Control-Allow-Origin:
+            type: "string"
+          Access-Control-Allow-Credentials:
+            type: "string"
+      404:
+        description: "404 response"
+        schema:
+          $ref: "#/definitions/Empty"
+        headers:
+          Access-Control-Allow-Headers:
+            type: "string"
+          Access-Control-Allow-Methods:
+            type: "string"
+          Access-Control-Allow-Origin:
+            type: "string"
+          Access-Control-Allow-Credentials:
+            type: "string"
+      500:
+        description: "500 response"
+        schema:
+          $ref: "#/definitions/Empty"
+        headers:
+          Access-Control-Allow-Headers:
+            type: "string"
+          Access-Control-Allow-Methods:
+            type: "string"
+          Access-Control-Allow-Origin:
+            type: "string"
+          Access-Control-Allow-Credentials:
+            type: "string"
+    x-amazon-apigateway-auth:
+      type: "aws_iam"
+    x-amazon-apigateway-integration:
+      responses:
+        default:
+          statusCode: "200"
+          responseParameters:
+            method.response.header.Access-Control-Allow-Credentials: "'true'"
+            method.response.header.Access-Control-Allow-Methods: "'*'"
+            method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+            method.response.header.Access-Control-Allow-Origin: "'*'"
+          responseTemplates:
+            application/json: "__passthrough__"
+        Bad Request:.*:
+          statusCode: "400"
+          responseParameters:
+            method.response.header.Access-Control-Allow-Credentials: "'true'"
+            method.response.header.Access-Control-Allow-Methods: "'*'"
+            method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+            method.response.header.Access-Control-Allow-Origin: "'*'"
+        Forbidden:.*:
+          statusCode: "403"
+          responseParameters:
+            method.response.header.Access-Control-Allow-Credentials: "'true'"
+            method.response.header.Access-Control-Allow-Methods: "'*'"
+            method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+            method.response.header.Access-Control-Allow-Origin: "'*'"
+        Not Found:.*:
+          statusCode: "404"
+          responseParameters:
+            method.response.header.Access-Control-Allow-Credentials: "'true'"
+            method.response.header.Access-Control-Allow-Methods: "'*'"
+            method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+            method.response.header.Access-Control-Allow-Origin: "'*'"
+        Internal Server Error:.*:
+          statusCode: "500"
+          responseParameters:
+            method.response.header.Access-Control-Allow-Credentials: "'true'"
+            method.response.header.Access-Control-Allow-Methods: "'*'"
+            method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+            method.response.header.Access-Control-Allow-Origin: "'*'"
+      requestTemplates:
+        application/json: "#set($inputRoot = $input.path('$')){\
+          \ \"config\": \"$stageVariables\", \
+          \ \"identity\": { \
+          \   \"id\": \"$context.identity.cognitoIdentityId\", \
+          \   \"type\": \"$context.identity.cognitoAuthenticationType\" \
+          \ }, \
+          \ \"lastKey\": \"$input.params('lastKey')\" \
+          \ }"
+      uri: "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:493526813836:function:dt_credits/invocations"
+      httpMethod: "POST"
+      type: "aws"
+  options:
+    produces:
+    - "application/json"
+    parameters: []
+    responses:
+      200:
+        description: "200 response"
+        schema:
+          $ref: "#/definitions/Empty"
+        headers:
+          Access-Control-Allow-Origin:
+            type: "string"
+          Access-Control-Allow-Methods:
+            type: "string"
+          Access-Control-Allow-Credentials:
+            type: "string"
+          Access-Control-Allow-Headers:
+            type: "string"
+    x-amazon-apigateway-integration:
+      responses:
+        default:
+          statusCode: "200"
+          responseParameters:
+            method.response.header.Access-Control-Allow-Credentials: "'true'"
+            method.response.header.Access-Control-Allow-Methods: "'GET,OPTIONS'"
+            method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+            method.response.header.Access-Control-Allow-Origin: "'*'"
+          responseTemplates:
+            application/json: "__passthrough__"
+      requestTemplates:
+        application/json: "{\"statusCode\": 200}"
+      type: "mock"

@@ -1,0 +1,15 @@
+{
+  "name": "dt_qr",
+  "version": "1.0.0",
+  "main": "dt_qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gm": "1.21.1",
+    "qr-js": "1.1.4"
+  },
+  "devDependencies": {}
+}

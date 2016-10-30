@@ -1,0 +1,333 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tokenBased",
+				"tokenBasedPurchaseTransaction"
+			],
+			[
+				"get",
+				"getState"
+			],
+			[
+				"eye",
+				"eye"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pablo/Documents/workspace/dripRelease/index.js",
+		"/Users/pablo/Documents/workspace/dripRelease/Gulpfile.js",
+		"/Users/pablo/Documents/dripthat/payeezy/createTransaction.js",
+		"/Users/pablo/Desktop/aws-apigateway-ios 2/generated-src/DTDripthatClient.h",
+		"/Users/pablo/Desktop/aws-apigateway-ios 2/generated-src/DTDripthatClient.m",
+		"/Users/pablo/Desktop/aws-apigateway-ios 2/generated-src/DTEmpty.h",
+		"/Users/pablo/Desktop/aws-apigateway-ios 2/generated-src/DTEmpty.m",
+		"/Users/pablo/Documents/dripthat/payeezy/index.js",
+		"/Users/pablo/Documents/workspace/VR-Test-01/gallery.html",
+		"/Users/pablo/Documents/workspace/Kaikai/templates/gallery.html",
+		"/Users/pablo/Documents/workspace/VR-Test-01/index.html",
+		"/Users/pablo/Documents/workspace/VR-Test-01/v.html",
+		"/Users/pablo/Documents/workspace/VR-Test-01/test1.html",
+		"/Users/pablo/Documents/workspace/Test01/gallery.html",
+		"/Users/pablo/dripthat/web/bower.json",
+		"/Users/pablo/dripthat/web/package.json",
+		"/Users/pablo/dripthat/web/index.html",
+		"/Users/pablo/dripthat/web/Gulpfile.coffee",
+		"/Users/pablo/Documents/workspace/Test01/v.html",
+		"/Users/pablo/Documents/workspace/Test01/index.html",
+		"/Users/pablo/Documents/workspace/Kaikai/templates/v.html",
+		"/Applications/EasyHTML5Video.app/Contents/Resources/qt.conf",
+		"/Users/pablo/Downloads/dripthat-webservices/dripthat-ws/yii-framework/i18n/data/fi.php",
+		"/Users/pablo/Documents/workspace/Kaikai/app.py",
+		"/Users/pablo/Documents/workspace/Kaikai/templates/v/index.html",
+		"/Users/pablo/Documents/workspace/Kaikai/templates/index.html",
+		"/Users/pablo/Documents/workspace/money2020/index.html",
+		"/Users/pablo/Documents/workspace/Kaikai/static/js/Kaikai.js",
+		"/Users/pablo/Documents/workspace/Kaikai/static/js/third-party/threejs/OrbitControls.js",
+		"/Users/pablo/Documents/workspace/Kaikai/static/js/util.js",
+		"/Users/pablo/Documents/workspace/Kaikai/static/js/gallery/main.js",
+		"/Users/pablo/Documents/workspace/h/js/player-webgl.js",
+		"/Users/pablo/Documents/workspace/jquerydemo/examples/index.html",
+		"/Users/pablo/Documents/workspace/h/index.html",
+		"/Users/pablo/Documents/workspace/h/css/elevr-player.css",
+		"/Users/pablo/Documents/workspace/h/main.html",
+		"/Users/pablo/Documents/workspace/h/css/main.html",
+		"/Users/pablo/Documents/workspace/summarizer/main.js",
+		"/Users/pablo/Documents/workspace/twitter_bots/getUserId.js",
+		"/Users/pablo/Documents/workspace/twitter_bots/main.js",
+		"/private/var/folders/m8/yt6qh4ys2dbdk__pmxpdr_r00000gn/T/fz3temp-1/Apns.php",
+		"/Users/pablo/Documents/workspace/dripthat_site/payeezy_direct_API/payeezy_node/example/lib/index.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/payeezy_direct_API/payeezy_node/example/lib/resource.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/payeezy_direct_API/payeezy_node/example/lib/resources/getToken.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/payeezy_direct_API/payeezy_node/example/index.js",
+		"/Users/pablo/Documents/dripthat/getStream.js",
+		"/Users/pablo/Documents/dripthat/createDrip.js",
+		"/Users/pablo/Desktop/index.js",
+		"/Users/pablo/Desktop/main.js",
+		"/Users/pablo/Desktop/lean.js",
+		"/Users/pablo/Documents/generateIdentity.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/index/index.js",
+		"/Users/pablo/Documents/dripthat/generateIdentity.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/lambda/src/generateIdentity.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/test01/generateIdentity.js",
+		"/Users/pablo/Desktop/something.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/awsm-images/thumbnail/index.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/awsm-images/thumbnail/handler.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/awsm-images/resize/index.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/awsm-images/resize/event.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/awsm-images/resize/handler.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/identity/awsm.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/identity/generate/index.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/identity/generate/handler.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/identity/generate/event.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/identity/generate/awsm.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/aws_modules/greetings/hello/index.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/new/api.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/cloudformation/dev/us-east-1/resources-cf.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/cloudformation/dev/us-east-1/lambdas-cf.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/payeezy/nodeJS/package.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/payeezy/nodeJS/lib/resource.js",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/jaws.json",
+		"/Users/pablo/Documents/workspace/dripthat_site/jaws/dripthatApp/README.md",
+		"/Users/pablo/Downloads/us.sitesucker.mac.sitesucker/launchkit.io/websites/bJVrBywLiSU/index.html",
+		"/Users/pablo/Downloads/dripthat-webservices/dripthat-ws/yii-framework/i18n/data/zh_hant_tw.php",
+		"/Users/pablo/Documents/dripthat/stuff.js",
+		"/Users/pablo/Documents/dripthat/verifyEmail.js",
+		"/Users/pablo/Documents/dripthat/getDripsByUser.js",
+		"/Users/pablo/Documents/dripthat/getUserFeed.js",
+		"/Users/pablo/Documents/dripthat/destroyFollow.js",
+		"/Users/pablo/Documents/dripthat/createFollow.js",
+		"/Users/pablo/Documents/dripthat/createComment_new_2.js",
+		"/Users/pablo/Documents/dripthat/removeComment.js",
+		"/Users/pablo/Documents/dripthat/createComment_new.js",
+		"/Users/pablo/Documents/dripthat/createLike.js",
+		"/Users/pablo/Documents/dripthat/purchaseDrip.js",
+		"/Users/pablo/Documents/dripthat/createTransaction.js",
+		"/Users/pablo/Documents/dripthat/removeLike.js",
+		"/Users/pablo/Documents/dripthat/purchaseDrip_noToken.js",
+		"/Users/pablo/Documents/dripthat/getDripDirect.js",
+		"/Users/pablo/Documents/dripthat/getDrips.js",
+		"/Users/pablo/Documents/dripthat/createComment.js",
+		"/Users/pablo/Documents/dripthat/removeDrip.js",
+		"/Users/pablo/Documents/dripthat/generateToken.js",
+		"/Users/pablo/Documents/generateToken.js",
+		"/Users/pablo/Documents/dripthat/changeProfileImage.js",
+		"/Users/pablo/Documents/getDripsByUser.js",
+		"/Users/pablo/Documents/uploadMedia.js",
+		"/Users/pablo/Documents/dripthat/changePassword.js",
+		"/Users/pablo/Documents/dripthat/email.js",
+		"/Users/pablo/Documents/changePassword.js",
+		"/Users/pablo/Documents/stuff.js",
+		"/Users/pablo/Documents/dripthat/user.js",
+		"/Users/pablo/Documents/createFollow.js",
+		"/Users/pablo/Documents/changeUsernameBatch.js",
+		"/Users/pablo/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"avici",
+			"avicii",
+			"enter",
+			"index",
+			"window",
+			"quat",
+			"quad",
+			"\"autoplay\":1,\"",
+			".jpg",
+			"vrse",
+			"controls",
+			"onmousedown",
+			"rotateLeft",
+			"keys",
+			"Cursor",
+			"gallery",
+			"play",
+			"console",
+			"cross",
+			"modifyUser",
+			"modifyDrip",
+			"createLike",
+			"deletedrip",
+			"delete",
+			"modifyDrip",
+			"phone",
+			"verifie",
+			"expected",
+			"attributestoget",
+			"succeed",
+			"fail",
+			"context",
+			"launchkit",
+			"config",
+			"console.log('Loading create user event');\nvar AWS = require('aws-sdk');\n\nvar dynamodb = new AWS.DynamoDB();\nvar cognitoidentity = new AWS.CognitoIdentity();\nvar s3 = new AWS.S3();\n\nvar tableName = \"dripthat\";\n\nfunction makeString(str) {\n    return {\n        'S': str.toString()\n    };\n}\n\nfunction makeNumber(n) {\n    return {\n        'N': n.toString()\n    };\n}\n\nfunction makeStringSet(s) {\n    return {\n        'SS': s\n    };\n}\n\nfunction putString(str) {\n    return {\n        'Action': 'PUT',\n        'Value': {\n            'S': str.toString()\n        }\n    };\n}\n\nfunction putStringSet(set) {\n    return {\n        'Action': 'PUT',\n        'Value': {\n            'SS': set\n        }\n    };\n}\n\nfunction putNumber(str) {\n    return {\n        'Action': 'PUT',\n        'Value': {\n            'N': str.toString()\n        }\n    };\n}\n\nexports.handler = function(event, context) {\n\n    var res = event;\n\n    var req = {};\n\n    var nowT = (new Date().getTime().toString());\n\n    if (res.IdentityId == res.ToId) {\n        console.fail(\"no.\");\n    }\n\n    var newDrip = {};\n\n    newDrip.createdAt = makeNumber(nowT);\n\n    var drip = {\n        'M': newDrip\n    };\n\n    var user_params = {\n        TableName: 'dripthat',\n        Key: { // The primary key of the item (a map of attribute name to AttributeValue)\n            IdentityId: {\n                S: res.IdentityId\n            }\n        },\n        ExpressionAttributeNames: {\n            \"#purchasedDrips\": \"purchasedDrips\",\n            '#tok': \"Token\",\n            '#val': \"Value\"\n        },\n        ExpressionAttributeValues: {\n            \":tok\": {\n                \"S\": res.Token\n            },\n            \":cat\": {\n                \"N\": nowT\n            },\n            \":dripBoughtString\": {\n                \"S\": res.userId + \":::\" + res.dripId\n            },\n            \":dripBought\": {\n                \"SS\": [res.userId + \":::\" + res.dripId]\n            },\n            \":zero\": {\n                \"N\": String(0)\n            }\n        },\n        ConditionExpression: 'NOT contains(#purchasedDrips, :dripBoughtString) AND (#tok.#val = :tok) AND (:cat < #tok.ExpDate)',\n        UpdateExpression: \"ADD #purchasedDrips :dripBought, credits :zero\",\n        ReturnValues: 'UPDATED_NEW', // optional (NONE | ALL_OLD | UPDATED_OLD | ALL_NEW | UPDATED_NEW)\n        ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)\n        ReturnItemCollectionMetrics: 'NONE', // optional (NONE | SIZE)\n    };\n    dynamodb.updateItem(user_params, function(err, user_data) {\n        if (err) {\n            context.fail(err);\n        } else {\n            var drip_params = {\n                TableName: 'dripthat',\n                Key: { // The primary key of the item (a map of attribute name to AttributeValue)\n                    IdentityId: {\n                        S: res.userId\n                    }\n                },\n                ExpressionAttributeNames: {\n                    '#drips': \"drips\",\n                    \"#dripId\": res.dripId\n                },\n                ExpressionAttributeValues: {\n                    \":IdentityId\": {\n                        \"SS\": [res.IdentityId]\n                    },\n                    \":cur_user_credits\": user_data.Attributes.credits,\n                    \":zero\": {\n                        \"N\": String(0)\n                    }\n                },\n                ConditionExpression: 'attribute_exists(#drips.#dripId.purchasedList) AND :cur_user_credits >= #drips.#dripId.price',\n                UpdateExpression: \"ADD #drips.#dripId.purchasedList :IdentityId, #drips.#dripId.price :zero\",\n                ReturnValues: 'UPDATED_NEW', // optional (NONE | ALL_OLD | UPDATED_OLD | ALL_NEW | UPDATED_NEW)\n                ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)\n                ReturnItemCollectionMetrics: 'NONE', // optional (NONE | SIZE)\n            };\n            dynamodb.updateItem(drip_params, function(err, drip_data) {\n                if (err) {\n                    context.fail(err);\n                } else {\n                    console.log(drip_data.Attributes.drips.M[res.dripId].M.price.N);\n                    var new_user_params = {\n                        TableName: 'dripthat',\n                        Key: { // The primary key of the item (a map of attribute name to AttributeValue)\n                            IdentityId: {\n                                S: res.IdentityId\n                            }\n                        },\n                        ExpressionAttributeNames: {\n                            '#purchasedDrips': \"purchasedDrips\",\n                        },\n                        ExpressionAttributeValues: {\n                            \":drip\": {\n                                \"SS\": [res.userId + \":::\" + res.dripId]\n                            },\n                            \":price\": {\n                                \"N\": String((drip_data.Attributes.drips.M[res.dripId].M.price.N) * -1)\n                            },\n                        },\n                        ConditionExpression: 'attribute_exists(credits)',\n                        UpdateExpression: \"ADD #purchasedDrips :drip, credits :price\",\n                        ReturnValues: 'UPDATED_NEW', // optional (NONE | ALL_OLD | UPDATED_OLD | ALL_NEW | UPDATED_NEW)\n                        ReturnConsumedCapacity: 'NONE', // optional (NONE | TOTAL | INDEXES)\n                        ReturnItemCollectionMetrics: 'NONE', // optional (NONE | SIZE)\n                    };\n                    dynamodb.updateItem(new_user_params, function(err, new_user_data) {\n                        if (err) {\n                            context.fail(err);\n                        } else {\n\n                            context.succeed(new_user_data); // successful response\n                        }\n                    });\n                }\n            });\n        }\n    });\n};\n",
+			"batch",
+			"makeNumber",
+			"call",
+			"userName"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"autoplay\":0,\"",
+			"emailAddress"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dripthat.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

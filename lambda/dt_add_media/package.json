@@ -1,0 +1,15 @@
+{
+  "name": "dt_add_media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dt_add_media.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panos Michail",
+  "license": "ISC",
+  "dependencies": {
+    "async": "1.5.2",
+    "lodash": "3.10.1"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "_args": [
+    [
+      "node-parse-api",
+      "/Users/pablo/Documents/workspace/dripJS"
+    ]
+  ],
+  "_from": "node-parse-api@*",
+  "_id": "node-parse-api@0.3.8",
+  "_inCache": true,
+  "_location": "/node-parse-api",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "mleveton@prepcloud.com",
+    "name": "leveton"
+  },
+  "_npmVersion": "2.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "node-parse-api",
+    "raw": "node-parse-api",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-parse-api/-/node-parse-api-0.3.8.tgz",
+  "_shasum": "55e6b6d319108fa703c7b50bfae996a6e53b87f5",
+  "_shrinkwrap": null,
+  "_spec": "node-parse-api",
+  "_where": "/Users/pablo/Documents/workspace/dripJS",
+  "author": {
+    "email": "tenorviol@yahoo.com",
+    "name": "Chris Johnson"
+  },
+  "bugs": {
+    "url": "https://github.com/leveton/node-parse-api/issues"
+  },
+  "contributors": [
+    {
+      "name": "Rodrigo Martell"
+    },
+    {
+      "name": "Daniel Gasienica",
+      "email": "daniel@gasienica.ch"
+    },
+    {
+      "name": "Sam Saccone"
+    },
+    {
+      "name": "Arnaud Rinquin"
+    },
+    {
+      "name": "Charles Julian Knight"
+    },
+    {
+      "name": "Barrington Haynes"
+    },
+    {
+      "name": "Christian Monaghan"
+    },
+    {
+      "name": "Christoffer Niska"
+    },
+    {
+      "name": "Jakub Knejzlík"
+    },
+    {
+      "name": "Joe Bruggeman"
+    },
+    {
+      "name": "Omar A"
+    },
+    {
+      "name": "Andrey"
+    },
+    {
+      "name": "Rafael Galdêncio"
+    },
+    {
+      "name": "Akhmad Fathonih"
+    },
+    {
+      "name": "Kody J. Peterson"
+    },
+    {
+      "name": "Jo Jordens"
+    },
+    {
+      "name": "Appsaloon"
+    }
+  ],
+  "dependencies": {},
+  "description": "A Parse.com REST API client for Node.js",
+  "devDependencies": {
+    "nodeunit": "~0.9.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "55e6b6d319108fa703c7b50bfae996a6e53b87f5",
+    "tarball": "http://registry.npmjs.org/node-parse-api/-/node-parse-api-0.3.8.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "gitHead": "33deab402af64d07965f75df4f89fcf128b178bd",
+  "homepage": "https://github.com/leveton/node-parse-api#readme",
+  "installable": true,
+  "keywords": [
+    "api",
+    "mbaas",
+    "parse",
+    "push notifications",
+    "rest"
+  ],
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "leveton",
+      "email": "mleveton@prepcloud.com"
+    }
+  ],
+  "name": "node-parse-api",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leveton/node-parse-api.git"
+  },
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "version": "0.3.8"
+}

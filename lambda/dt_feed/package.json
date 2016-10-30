@@ -1,0 +1,16 @@
+{
+  "name": "dt_feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dt_feed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panos Michail",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "3.10.1",
+    "mysql": "2.10.0",
+    "sequelize": "3.16.0"
+  }
+}

@@ -1,0 +1,11 @@
+tmp/*
+scripts/env.json
+lambda/*/node_modules/*
+iam/edit/*
+*.swp
+*.un~
+*.tmp
+node_modules/*
+.env
+*.jpg
+*.log

@@ -1,0 +1,15 @@
+{
+  "name": "dt_cover_pic",
+  "version": "1.0.0",
+  "description": "Responds to a PUT event of an input S3 bucket and creates a thumbnail on an output S3 bucket",
+  "main": "dt_cover_pic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panos Michail",
+  "license": "ISC",
+  "dependencies": {
+    "async": "1.5.0",
+    "gm": "1.21.1"
+  }
+}

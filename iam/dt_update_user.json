@@ -1,0 +1,36 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:UpdateItem"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_USERS_TABLE>"
+        },
+        {
+            "Action": [
+                "dynamodb:GetItem",
+                "dynamodb:PutItem"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:dynamodb:<REGION>:<AWS_ACCOUNT_ID>:table/<DDB_USERNAMES_TABLE>"
+        },
+        {
+            "Action": [
+                "cognito-identity:LookupDeveloperIdentity"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:cognito-identity:<REGION>:<AWS_ACCOUNT_ID>:identitypool/<IDENTITY_POOL_ID>"
+        },
+        {
+            "Sid": "",
+            "Resource": "*",
+            "Action": [
+                "logs:*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dt_get_drip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dt_get_drip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panos Michail",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "2.10.0",
+    "sequelize": "3.17.1"
+  }
+}

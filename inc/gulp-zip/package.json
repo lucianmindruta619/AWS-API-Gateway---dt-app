@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "gulp-zip@^3.0.2",
+      "/Users/pablo/Documents/workspace/dripJS"
+    ]
+  ],
+  "_from": "gulp-zip@>=3.0.2 <4.0.0",
+  "_id": "gulp-zip@3.0.2",
+  "_inCache": true,
+  "_location": "/gulp-zip",
+  "_nodeVersion": "1.6.2",
+  "_npmUser": {
+    "email": "kevinmartensson@gmail.com",
+    "name": "kevva"
+  },
+  "_npmVersion": "2.7.1",
+  "_phantomChildren": {
+    "core-util-is": "1.0.1",
+    "inherits": "2.0.1",
+    "isarray": "0.0.1",
+    "string_decoder": "0.10.31",
+    "xtend": "4.0.0"
+  },
+  "_requested": {
+    "name": "gulp-zip",
+    "raw": "gulp-zip@^3.0.2",
+    "rawSpec": "^3.0.2",
+    "scope": null,
+    "spec": ">=3.0.2 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-zip/-/gulp-zip-3.0.2.tgz",
+  "_shasum": "513caead602df6173f70d4b463e2bec0920a357e",
+  "_shrinkwrap": null,
+  "_spec": "gulp-zip@^3.0.2",
+  "_where": "/Users/pablo/Documents/workspace/dripJS",
+  "author": {
+    "email": "sindresorhus@gmail.com",
+    "name": "Sindre Sorhus",
+    "url": "http://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/gulp-zip/issues"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "concat-stream": "^1.4.7",
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1",
+    "yazl": "^2.1.0"
+  },
+  "description": "ZIP compress files",
+  "devDependencies": {
+    "decompress-unzip": "*",
+    "gulp": "*",
+    "mocha": "*",
+    "vinyl-assign": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "513caead602df6173f70d4b463e2bec0920a357e",
+    "tarball": "http://registry.npmjs.org/gulp-zip/-/gulp-zip-3.0.2.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "0772beae388e356489709f39444acefdb40e1950",
+  "homepage": "https://github.com/sindresorhus/gulp-zip",
+  "installable": true,
+  "keywords": [
+    "archive",
+    "archiver",
+    "compress",
+    "compression",
+    "file",
+    "gulpplugin",
+    "zip"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    },
+    {
+      "name": "kevva",
+      "email": "kevinmartensson@gmail.com"
+    }
+  ],
+  "name": "gulp-zip",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sindresorhus/gulp-zip"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "3.0.2"
+}
